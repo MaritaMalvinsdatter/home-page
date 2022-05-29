@@ -1,0 +1,39 @@
+@media only screen and (min-width: 670px) {
+
+    /* HEADER */
+  
+    .hamburger {
+        display: none;
+      }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        position: unset;
+        background-image: none;
+        padding: 0;
+    }
+
+    .close-nav {
+        display: none;
+    }
+
+    .on-page {
+        text-decoration: underline;
+      }
+
+    .logo {
+        font-size: 3em;
+        max-width: 200px;
+        margin-top: 20px;
+    }
+
+    nav li {
+        font-weight: bold;
+    }
+    
+    h1 {
+        margin: 40px;
+        font-size: 2em;
+      }
+}
