@@ -144,6 +144,11 @@ body {
     display: block;
 }
 
+.card-txt {
+  display: flex;
+  flex-direction: column;
+}
+
    /* FOOTER */
 
   footer {
