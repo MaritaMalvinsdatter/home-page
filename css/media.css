@@ -36,4 +36,30 @@
         margin: 40px;
         font-size: 2em;
       }
+
+    .card-left,
+    .card-right {
+        display: flex;
+        align-items: center;
+    }
+
+    .card-right .card-img {
+        flex: 60%;
+        margin: 0;
+    }
+
+    .card-left .card-img {
+        flex: 60%;
+        margin: 0;
+    }
+
+    .card-img img {
+        max-height: 500px;
+        width: auto;
+    }
+
+    .card-txt {
+        flex: 40%;
+        margin: 0px 30px;
+    }
 }
