@@ -110,12 +110,39 @@ body {
   .main-content {
       text-align: center;
       color: whitesmoke;
+      padding: 0px 15px;
   }
 
   h1 {
       font-family: 'Montserrat', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       color: silver;
   }
+
+  /* CARDS */
+
+  .page-cards {
+    position: relative;
+    margin: 0 10px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .page-cards a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  .card-left,
+  .card-right {
+    border: solid 1px white;
+    margin-bottom: 20px;
+  }
+
+  .card-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
    /* FOOTER */
 
