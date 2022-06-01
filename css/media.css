@@ -37,29 +37,26 @@
         font-size: 2em;
       }
 
-    .card-left,
-    .card-right {
+    .page-cards {
         display: flex;
-        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: auto;
+
     }
 
-    .card-right .card-img {
-        flex: 60%;
-        margin: 0;
-    }
-
-    .card-left .card-img {
-        flex: 60%;
-        margin: 0;
+     .card {
+        margin: 10px;
+        max-width: 450px;
     }
 
     .card-img img {
-        max-height: 500px;
-        width: auto;
+        max-height: 250px;
     }
+}
 
-    .card-txt {
-        flex: 40%;
-        margin: 0px 30px;
+@media only screen and (min-width: 900px) {
+    .card-img img {
+        max-height: 300px;
     }
 }
