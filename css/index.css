@@ -159,6 +159,32 @@ body {
   margin: 10px 0px;
 }
 
+/* MODAL */
+
+.modal {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal img {
+  width: 80%;
+  height: auto;
+  position: relative;
+  top: 10%;
+  border-style: double;
+  border-color: #0b3b59;
+  background-color: white;
+}
+
+.modal img:hover {
+  cursor: default;
+}
+
    /* FOOTER */
 
   footer {
