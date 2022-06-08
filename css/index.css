@@ -28,7 +28,7 @@ body {
   .logo {
       color: whitesmoke;
       text-decoration: none;
-      font-size: 2em;
+      font-size: 1.5em;
   }
 
   .fa-code {
@@ -83,7 +83,7 @@ body {
   
   nav li {
     padding: 5px 10px;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
   }
 
   nav a {
@@ -98,11 +98,7 @@ body {
   }
 
   .close-nav {
-    background-color: #fefff6;
-    color: silver;
-    font-size: 1.3em;
     margin-top: 5px;
-    border: 1px solid silver;
   }
 
   /* MAIN */

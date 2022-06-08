@@ -1,6 +1,10 @@
 @media only screen and (min-width: 741px) {
 
     /* HEADER */
+
+    header {
+        padding: 20px 40px;
+    }
   
     .hamburger {
         display: none;
@@ -23,9 +27,7 @@
       }
 
     .logo {
-        font-size: 2.5em;
-        max-width: 200px;
-        margin-top: 20px;
+        font-size: 2em
     }
 
     nav li {
