@@ -1,85 +1,84 @@
 @media only screen and (min-width: 741px) {
+  /* HEADER */
 
-    /* HEADER */
+  header {
+    padding: 20px 40px;
+  }
 
-    header {
-        padding: 20px 40px;
-    }
-  
-    .hamburger {
-        display: none;
-      }
+  .hamburger {
+    display: none;
+  }
 
-    .nav-menu {
-        display: flex;
-        flex-direction: row;
-        position: unset;
-        background-image: none;
-        padding: 0;
-    }
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    position: unset;
+    background-image: none;
+    padding: 0;
+  }
 
-    .close-nav {
-        display: none;
-    }
+  .close-nav {
+    display: none;
+  }
 
-    .on-page {
-        text-decoration: underline;
-      }
+  .logo {
+    font-size: 2em;
+  }
 
-    .logo {
-        font-size: 2em
-    }
+  nav li {
+    font-weight: bold;
+  }
 
-    nav li {
-        font-weight: bold;
-    }
-    
-    h1 {
-        margin: 40px;
-        font-size: 2em;
-      }
+  h1 {
+    margin: 40px;
+    font-size: 2em;
+  }
 
-    .page-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin: 0px 30px;
-    }
+  .page-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px 30px;
+  }
 
-     .card {
-        margin: 10px;
-        max-width: 400px;
-    }
+  .card {
+    margin: 10px;
+    max-width: 400px;
+  }
 
-    .card-img img {
-        max-height: 200px;
-    }
+  .card-img img {
+    max-height: 200px;
+  }
 
-    /* MODAL */
+  /* MODAL */
 
-    .modal img {
-        width: 55%;
-    }
+  .modal img {
+    width: 55%;
+  }
+
+  #contact h2 {
+    margin: 30px 0px;
+  }
 }
 
 @media only screen and (min-width: 900px) {
-    .page-cards {
-        margin: 0px 100px;
-    }   
+  .page-cards {
+    margin: 50px 100px;
+  }
 
-    .card-img img {
-        max-height: 250px;
-    }
+  .card-img img {
+    max-height: 250px;
+  }
 
-    .modal img {
-        width: 55%;
-        top: 5%;
-        max-height: 90%;
-    }
+  .modal img {
+    width: 55%;
+    top: 5%;
+    max-height: 90%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-    .modal img {
-        width: 45%;
-    }
+  .modal img {
+    width: 45%;
+  }
 }
