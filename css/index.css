@@ -6,10 +6,10 @@
 body {
     font-family: "Ubuntu", "Trebuchet MS", "Lucida Sans Unicode",
     "Lucida Sans", Arial, sans-serif;
-    font-size: 16px;
     min-height: 100vh;
     margin: 0px;
     background-image: linear-gradient(to right, #141e30, #243b55);
+    color: #008C8B;
   }
 
   button:hover {
@@ -93,7 +93,9 @@ body {
     font-family: 'Montserrat', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
-  nav a:hover {
+  nav a:hover, 
+  h2:hover,
+  .txt-links a:hover {
     color: #069f4d;
   }
 
@@ -111,7 +113,6 @@ body {
 
   h1 {
       font-family: 'Montserrat', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      color: silver;
   }
 
   /* CARDS */
@@ -138,7 +139,11 @@ body {
     object-fit: cover;
     max-height: 220px;
     object-position: top;
-}
+  }
+
+  .card-img:hover {
+    cursor: pointer;
+  }
 
 .card-txt,
 .txt-links {
@@ -153,6 +158,11 @@ body {
 
 .txt-links a {
   margin: 10px 0px;
+}
+
+.fa-diamond,
+.fa-github-square {
+  margin-right: 5px;
 }
 
 /* MODAL */
@@ -172,13 +182,6 @@ body {
     height: auto;
     position: relative;
     top: 10%;
-    border-style: double;
-    border-color: #0b3b59;
-    background-color: white;
-}
-
-.modal img:hover {
-    cursor: default;
 }
 
    /* FOOTER */
