@@ -16,7 +16,7 @@
         let popUpModal = (src) => {
             const modal = document.createElement("div");
             modal.setAttribute("class", "modal");
-            document.querySelector(".card-img").append(modal);
+            document.querySelector(".card").append(modal);
             const newImage = document.createElement("img");
             newImage.setAttribute("src", src);
 

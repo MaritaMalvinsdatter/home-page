@@ -52,6 +52,12 @@
     .card-img img {
         max-height: 200px;
     }
+
+    /* MODAL */
+
+    .modal img {
+        width: 55%;
+    }
 }
 
 @media only screen and (min-width: 900px) {
@@ -61,5 +67,17 @@
 
     .card-img img {
         max-height: 250px;
+    }
+
+    .modal img {
+        width: 55%;
+        top: 5%;
+        max-height: 90%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .modal img {
+        width: 45%;
     }
 }
