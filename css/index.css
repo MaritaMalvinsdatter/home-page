@@ -88,13 +88,30 @@ nav a {
 }
 
 nav a:hover,
-h2:hover,
+h3:hover,
 .txt-links a:hover {
   color: #069f4d;
 }
 
 .close-nav {
-  margin-top: 5px;
+  margin: 5px;
+}
+
+/* ABOUT */
+
+.about {
+  margin: 0 auto;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.about p {
+  margin: 6px 0px;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
 }
 
 /* MAIN */
@@ -102,20 +119,21 @@ h2:hover,
 .main-content {
   text-align: center;
   color: whitesmoke;
-  padding: 0px 15px;
+  padding: 20px 15px;
 }
 
 h1,
-#contact h2 {
+h2 {
   font-family: "Montserrat", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 30px;
 }
 
 /* CARDS */
 
 .page-cards {
   position: relative;
-  margin: 30px 60px;
+  margin: 0px 60px;
   text-align: center;
   flex-direction: column;
 }
@@ -183,10 +201,6 @@ i {
   text-align: center;
   color: whitesmoke;
   padding: 20px;
-}
-
-#contact h2 {
-  margin-bottom: 30px;
 }
 
 #contact h2:hover {

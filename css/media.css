@@ -1,6 +1,4 @@
 @media only screen and (min-width: 741px) {
-  /* HEADER */
-
   header {
     padding: 20px 40px;
   }
@@ -29,9 +27,13 @@
     font-weight: bold;
   }
 
+  .about {
+    max-width: 80%;
+    text-align: center;
+  }
+
   h1 {
-    margin: 40px;
-    font-size: 2em;
+    margin-bottom: 30px;
   }
 
   .page-cards {
@@ -49,8 +51,6 @@
   .card-img img {
     max-height: 180px;
   }
-
-  /* MODAL */
 
   .modal img {
     width: 55%;
